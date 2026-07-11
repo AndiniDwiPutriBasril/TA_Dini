@@ -16,7 +16,7 @@
 
 </head>
 
-<body class="bg-blue-100 overflow-x-hidden w-full">
+<body class="bg-blue-100 overflow-x-hidden">
 
     <!-- ================= NAVBAR ================= -->
 
@@ -49,7 +49,7 @@
 
             
             <!-- Login & Sign Up -->
-            <div class="hidden sm:flex items-center gap-4">
+            <div class="flex items-center gap-4">
 
                 <a href="login"
                     class="bg-[#183B6B] text-white px-7 py-3 rounded-full hover:bg-blue-700 duration-300 shadow-lg">
@@ -166,7 +166,7 @@
 
             <!-- Card -->
 
-            <div class="mt-14 bg-white rounded-[35px] shadow-xl border border-yellow-500 px-5 sm:px-10 py-10 sm:py-14">
+            <div class="mt-14 bg-white rounded-[35px] shadow-xl border border-yellow-500 px-10 py-14">
 
                 <p class="text-center text-lg leading-10 text-gray-600 max-w-4xl mx-auto">
 
@@ -250,7 +250,7 @@
     <!-- ================= FOOTER ================= -->
     <footer id="contact" class="relative overflow-hidden bg-[#183B6B] text-white">
 
-        <div class="max-w-7xl mx-auto px-6 py-6">
+        <div class="max-7xl  px-10 py-3">
 
             <!-- 3 Kolom -->
             <div class="grid grid-cols-1 md:grid-cols-3 gap-10 md:gap-8 pt-2">

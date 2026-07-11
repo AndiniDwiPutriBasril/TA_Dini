@@ -39,10 +39,6 @@
                         Status
                     </th>
 
-                    <th class="p-6 text-left text-gray-600 font-semibold text-xl">
-                        Jumlah
-                    </th>
-
                      <th class="p-6 text-left text-gray-600 font-semibold text-xl">
                         Waktu
                     </th>
@@ -83,11 +79,6 @@
 
                     </td>
 
-                    <!-- JUMLAH -->
-                    <td class="p-6 text-3xl font-black text-purple-500">
-                        {{ $item->jumlah_squat }}
-                    </td>
-
                     <!-- WAKTU -->
                     <td class="p-6 text-gray-500 text-lg">
                         {{ $item->created_at }}
@@ -112,10 +103,6 @@
                         </form>
 
                     </td>
-
-                    
-
-
 
                 </tr>
 
