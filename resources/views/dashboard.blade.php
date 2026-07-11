@@ -6,11 +6,11 @@
     <div class="flex items-start justify-between mb-8">
 
         <div>
-           <h1 class="text-3xl md:text-5xl font-black bg-gradient-to-r from-blue-700 via-indigo-600 to-purple-600 bg-clip-text text-transparent">
+            <h1 class="text-5xl font-black bg-gradient-to-r from-blue-700 via-indigo-600 to-purple-600 bg-clip-text text-transparent">
                 Dashboard
             </h1>
 
-            <p class="text-purple-500 text-base md:text-2xl mt-3">
+            <p class="text-purple-500 text-2xl mt-3">
                 Monitoring realtime sudut sendi lutut
             </p>
 
@@ -45,7 +45,7 @@
     </div>
 
     <!-- TOP -->
-    <div class="grid grid-cols-1 lg:grid-cols-12 gap-6">
+    <div class="grid grid-cols-1 xl:grid-cols-12 gap-6">
          
         <!-- PAHA -->
         <div class="xl:col-span-2 space-y-6">
@@ -118,7 +118,7 @@
 
                     <h1
                         id="sudutLutut"
-                        class="text-7xl md:text-[170px] font-black leading-none bg-gradient-to-r from-indigo-700 via-purple-600 to-pink-500 bg-clip-text text-transparent">
+                        class="text-[170px] font-black leading-none bg-gradient-to-r from-indigo-700 via-purple-600 to-pink-500 bg-clip-text text-transparent">
 
                         {{ $data->sudut_lutut }}°
 
@@ -175,7 +175,7 @@
 
                     <h1
                         id="jumlahSquat"
-                        class="text-6xl md:text-[90px] font-black text-center mt-10 bg-gradient-to-r from-purple-600 to-pink-500 bg-clip-text text-transparent">
+                        class="text-[90px] font-black text-center mt-10 bg-gradient-to-r from-purple-600 to-pink-500 bg-clip-text text-transparent">
 
                         {{ $jumlah_squat }}
 
@@ -207,7 +207,7 @@
     <!-- GRAFIK -->
     <div class="bg-white/90 backdrop-blur-md rounded-[2rem] p-6 border border-blue-400 shadow-xl mt-6">
 
-        <h2 class="text-xl md:text-3xl font-semibold text-purple-500 mb-6">
+        <h2 class="text-3xl font-semibold text-purple-500 mb-8">
             Grafik Pergerakan Sudut Lutut
         </h2>
 
